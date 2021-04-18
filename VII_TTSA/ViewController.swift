@@ -7,7 +7,7 @@
 
 import Cocoa
 
-class ViewController: NSViewController {
+class ViewController: NSViewController{
 
     @IBOutlet var mainView: NSView!
     @IBOutlet weak var separatorHorizontalView: NSView!
@@ -23,7 +23,6 @@ class ViewController: NSViewController {
     @IBOutlet weak var signinBox: NSBox!
     @IBOutlet weak var signinBtn: NSButton!
     
-    @IBOutlet weak var keepMeSignedinBtn: NSButton!
     
     @IBOutlet weak var signupBox: NSBox!
     
@@ -69,16 +68,18 @@ class ViewController: NSViewController {
         }
     }
 
-    @IBAction func keepmeSignedInBtnClicked(_ sender: NSButton) {
-        print("clicked")
+    @IBAction func signupBtnClicked(_ sender: NSButton) {
+        let vc = HomeViewController.instantiateFromStoryboard()
+        self.presentAsSheet(vc)
+        
     }
     
+    
 }
-extension ViewController
+extension NSViewController
 {
     func addColorToView(view:NSView , color:NSColor) -> Void {
         view.wantsLayer = true
-//        view.layer?.backgroundColor = color.cgColor
         view.setValue(color, forKey: "backgroundColor")
 
     }
