@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2CE21B50D6ED0D76F623FDBC /* Pods_VII_TTSATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F80EBA7874274CA74E620F5 /* Pods_VII_TTSATests.framework */; };
 		33BF3FC94A4FDEA2F9980E5F /* Pods_VII_TTSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E76EBCE68B1C1F19D9D7336 /* Pods_VII_TTSA.framework */; };
+		4E2D43CF262C3FE80057BF66 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D43CE262C3FE80057BF66 /* HomeViewController.swift */; };
 		4EB4C8B3262C0F76006BB25B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4C8B2262C0F76006BB25B /* AppDelegate.swift */; };
 		4EB4C8B5262C0F76006BB25B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4C8B4262C0F76006BB25B /* ViewController.swift */; };
 		4EB4C8B7262C0F82006BB25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EB4C8B6262C0F82006BB25B /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 		1E76EBCE68B1C1F19D9D7336 /* Pods_VII_TTSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VII_TTSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F80EBA7874274CA74E620F5 /* Pods_VII_TTSATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VII_TTSATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A0FB4530BB42B26498FF75 /* Pods-VII_TTSATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VII_TTSATests.release.xcconfig"; path = "Target Support Files/Pods-VII_TTSATests/Pods-VII_TTSATests.release.xcconfig"; sourceTree = "<group>"; };
+		4E2D43CE262C3FE80057BF66 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4EB4C8AF262C0F76006BB25B /* VII_TTSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VII_TTSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB4C8B2262C0F76006BB25B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EB4C8B4262C0F76006BB25B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E2D43CD262C3FC00057BF66 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E2D43CE262C3FE80057BF66 /* HomeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		4EB4C8A6262C0F76006BB25B = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 		4EB4C8B1262C0F76006BB25B /* VII_TTSA */ = {
 			isa = PBXGroup;
 			children = (
+				4E2D43CD262C3FC00057BF66 /* Controllers */,
 				4EB4C8FD262C2430006BB25B /* Utilities */,
 				4EB4C8B2262C0F76006BB25B /* AppDelegate.swift */,
 				4EB4C8B4262C0F76006BB25B /* ViewController.swift */,
@@ -415,6 +426,7 @@
 				4EB4C8FF262C2447006BB25B /* Utilities.swift in Sources */,
 				4EB4C8B5262C0F76006BB25B /* ViewController.swift in Sources */,
 				4EB4C8B3262C0F76006BB25B /* AppDelegate.swift in Sources */,
+				4E2D43CF262C3FE80057BF66 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
