@@ -9,10 +9,12 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet var mainView: NSView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    
+        self.mainView.wantsLayer = true
+        self.mainView.layer?.backgroundColor = .white
     }
 
     override var representedObject: Any? {
