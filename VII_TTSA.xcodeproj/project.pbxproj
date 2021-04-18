@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		4EB4C8BA262C0F82006BB25B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EB4C8B8262C0F82006BB25B /* Main.storyboard */; };
 		4EB4C8C6262C0F82006BB25B /* VII_TTSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4C8C5262C0F82006BB25B /* VII_TTSATests.swift */; };
 		4EB4C8D1262C0F82006BB25B /* VII_TTSAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4C8D0262C0F82006BB25B /* VII_TTSAUITests.swift */; };
+		4EB4C8FF262C2447006BB25B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4C8FE262C2447006BB25B /* Utilities.swift */; };
 		AD6B7AB961C95073A8CB3115 /* Pods_VII_TTSA_VII_TTSAUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852ED6AA135948403DB901C6 /* Pods_VII_TTSA_VII_TTSAUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		4EB4C8CC262C0F82006BB25B /* VII_TTSAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VII_TTSAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB4C8D0262C0F82006BB25B /* VII_TTSAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VII_TTSAUITests.swift; sourceTree = "<group>"; };
 		4EB4C8D2262C0F82006BB25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EB4C8FE262C2447006BB25B /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		852ED6AA135948403DB901C6 /* Pods_VII_TTSA_VII_TTSAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VII_TTSA_VII_TTSAUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B66ECBD515A7ABF339347A9 /* Pods-VII_TTSATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VII_TTSATests.debug.xcconfig"; path = "Target Support Files/Pods-VII_TTSATests/Pods-VII_TTSATests.debug.xcconfig"; sourceTree = "<group>"; };
 		8D16365357CA18C65506D21B /* Pods-VII_TTSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VII_TTSA.debug.xcconfig"; path = "Target Support Files/Pods-VII_TTSA/Pods-VII_TTSA.debug.xcconfig"; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		4EB4C8B1262C0F76006BB25B /* VII_TTSA */ = {
 			isa = PBXGroup;
 			children = (
+				4EB4C8FD262C2430006BB25B /* Utilities */,
 				4EB4C8B2262C0F76006BB25B /* AppDelegate.swift */,
 				4EB4C8B4262C0F76006BB25B /* ViewController.swift */,
 				4EB4C8B6262C0F82006BB25B /* Assets.xcassets */,
@@ -141,6 +144,14 @@
 			path = VII_TTSAUITests;
 			sourceTree = "<group>";
 		};
+		4EB4C8FD262C2430006BB25B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4EB4C8FE262C2447006BB25B /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		D36719DCBE149FEBCF0F15D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +172,6 @@
 				8B66ECBD515A7ABF339347A9 /* Pods-VII_TTSATests.debug.xcconfig */,
 				33A0FB4530BB42B26498FF75 /* Pods-VII_TTSATests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -402,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EB4C8FF262C2447006BB25B /* Utilities.swift in Sources */,
 				4EB4C8B5262C0F76006BB25B /* ViewController.swift in Sources */,
 				4EB4C8B3262C0F76006BB25B /* AppDelegate.swift in Sources */,
 			);
