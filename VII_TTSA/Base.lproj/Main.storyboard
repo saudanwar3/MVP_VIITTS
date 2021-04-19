@@ -1368,6 +1368,9 @@
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" metaFont="system"/>
                                                     </buttonCell>
+                                                    <connections>
+                                                        <action selector="joinMeetingBtnClicked:" target="xCu-gX-H10" id="bjf-cg-iEj"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -2447,6 +2450,170 @@
                 <customObject id="zC7-9h-NVK" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="43.5" y="2815"/>
+        </scene>
+        <!--Join Meeting View Controller-->
+        <scene sceneID="viE-wX-yCE">
+            <objects>
+                <viewController storyboardIdentifier="JoinMeetingViewController" id="4lx-NU-OeO" customClass="JoinMeetingViewController" customModule="VII_TTSA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="BSh-Vm-mW1">
+                        <rect key="frame" x="0.0" y="0.0" width="519" height="331"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xWC-8d-k6B">
+                                <rect key="frame" x="190" y="295" width="140" height="26"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Join Meeting" id="bKS-bd-o1B">
+                                    <font key="font" size="22" name="HelveticaNeue-Bold"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Y1h-Q5-fP0">
+                                <rect key="frame" x="437" y="293.5" width="74.5" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Jf8-kV-vy0"/>
+                                    <constraint firstAttribute="width" constant="74.5" id="bTn-18-r8K"/>
+                                </constraints>
+                                <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="NSStopProgressTemplate" imagePosition="right" alignment="center" imageScaling="proportionallyDown" inset="2" id="ucn-JG-j0b">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <color key="contentTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="closeBtnClicked:" target="4lx-NU-OeO" id="99q-R9-VKD"/>
+                                </connections>
+                            </button>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="glH-H4-pET">
+                                <rect key="frame" x="210" y="210" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="9Yf-yK-4yb"/>
+                                    <constraint firstAttribute="width" constant="100" id="f9O-6x-0xx"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="AppLogo" id="w2H-uj-yug"/>
+                            </imageView>
+                            <box boxType="custom" cornerRadius="15" title="meeting topic" translatesAutoresizingMaskIntoConstraints="NO" id="Acf-uM-rGC">
+                                <rect key="frame" x="15" y="178" width="489" height="32"/>
+                                <view key="contentView" id="C6S-gb-VcK">
+                                    <rect key="frame" x="1" y="1" width="487" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hVA-zl-bm8">
+                                            <rect key="frame" x="14" y="4" width="459" height="21"/>
+                                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" focusRingType="none" placeholderString="Enter Meeting ID" id="mdJ-WK-3Sf">
+                                                <font key="font" size="15" name="HelveticaNeue"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </textFieldCell>
+                                        </textField>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="hVA-zl-bm8" secondAttribute="trailing" constant="16" symbolic="YES" id="Gef-bG-igp"/>
+                                        <constraint firstItem="hVA-zl-bm8" firstAttribute="leading" secondItem="C6S-gb-VcK" secondAttribute="leading" constant="16" symbolic="YES" id="bsx-e6-sw8"/>
+                                        <constraint firstItem="hVA-zl-bm8" firstAttribute="top" secondItem="C6S-gb-VcK" secondAttribute="top" constant="5" id="peX-TC-0Fy"/>
+                                        <constraint firstAttribute="bottom" secondItem="hVA-zl-bm8" secondAttribute="bottom" constant="4" id="y5p-Y3-dqg"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="Idq-SQ-JK3"/>
+                                </constraints>
+                                <color key="borderColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="fillColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </box>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vwk-dK-MTM">
+                                <rect key="frame" x="33" y="122" width="18" height="18"/>
+                                <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" inset="2" id="8Ht-YG-i9K">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" size="13" name="HelveticaNeue"/>
+                                </buttonCell>
+                                <color key="contentTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Mea-MD-Nv8">
+                                <rect key="frame" x="55" y="122" width="135" height="17"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Connect with audio" id="ZAt-V9-urL">
+                                    <font key="font" size="15" name="HelveticaNeue"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Onk-dv-F0k">
+                                <rect key="frame" x="321" y="123" width="18" height="18"/>
+                                <buttonCell key="cell" type="check" bezelStyle="regularSquare" imagePosition="left" inset="2" id="pHl-ng-V0J">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" size="13" name="HelveticaNeue"/>
+                                </buttonCell>
+                                <color key="contentTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3r0-NR-cup">
+                                <rect key="frame" x="343" y="123" width="134" height="17"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Connect with video" id="aPD-Jj-2Qi">
+                                    <font key="font" size="15" name="HelveticaNeue"/>
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <box boxType="custom" cornerRadius="15" title="Join meeting" translatesAutoresizingMaskIntoConstraints="NO" id="QcZ-Of-vnD">
+                                <rect key="frame" x="22" y="37" width="475" height="32"/>
+                                <view key="contentView" id="dsT-eZ-YLO">
+                                    <rect key="frame" x="1" y="1" width="473" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="IBa-be-ddF">
+                                            <rect key="frame" x="16" y="2" width="441" height="26"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="441" id="yvG-ac-67d"/>
+                                            </constraints>
+                                            <buttonCell key="cell" type="bevel" title="Join Meeting" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="UPw-9o-PYJ">
+                                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                <font key="font" size="22" name="HelveticaNeue-Medium"/>
+                                            </buttonCell>
+                                            <color key="contentTintColor" red="0.98068281840000004" green="0.98113765929999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="IBa-be-ddF" firstAttribute="leading" secondItem="dsT-eZ-YLO" secondAttribute="leading" constant="16" symbolic="YES" id="0RF-TR-yHe"/>
+                                        <constraint firstItem="IBa-be-ddF" firstAttribute="top" secondItem="dsT-eZ-YLO" secondAttribute="top" constant="2" id="1lC-Jo-aNe"/>
+                                        <constraint firstAttribute="bottom" secondItem="IBa-be-ddF" secondAttribute="bottom" constant="2" id="ESQ-p9-8DB"/>
+                                        <constraint firstItem="IBa-be-ddF" firstAttribute="centerY" secondItem="dsT-eZ-YLO" secondAttribute="centerY" id="jmw-ma-tia"/>
+                                        <constraint firstItem="IBa-be-ddF" firstAttribute="centerX" secondItem="dsT-eZ-YLO" secondAttribute="centerX" id="tBA-Kf-NXf"/>
+                                        <constraint firstAttribute="trailing" secondItem="IBa-be-ddF" secondAttribute="trailing" constant="16" symbolic="YES" id="xzp-6H-J08"/>
+                                    </constraints>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="Wbs-c0-Hid"/>
+                                </constraints>
+                                <color key="borderColor" red="0.87058823529999996" green="0.87058823529999996" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="fillColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </box>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Mea-MD-Nv8" firstAttribute="top" secondItem="Onk-dv-F0k" secondAttribute="bottom" constant="-14" id="0pH-ih-qKq"/>
+                            <constraint firstItem="QcZ-Of-vnD" firstAttribute="centerX" secondItem="BSh-Vm-mW1" secondAttribute="centerX" id="1Lz-QE-sax"/>
+                            <constraint firstItem="vwk-dK-MTM" firstAttribute="top" secondItem="Acf-uM-rGC" secondAttribute="bottom" constant="40" id="2LP-YZ-G8J"/>
+                            <constraint firstItem="Acf-uM-rGC" firstAttribute="centerX" secondItem="BSh-Vm-mW1" secondAttribute="centerX" id="AIT-u4-h6b"/>
+                            <constraint firstItem="Onk-dv-F0k" firstAttribute="leading" secondItem="Mea-MD-Nv8" secondAttribute="trailing" constant="135" id="FiK-ye-0r7"/>
+                            <constraint firstAttribute="trailing" secondItem="Y1h-Q5-fP0" secondAttribute="trailing" constant="8" id="JDq-qd-brY"/>
+                            <constraint firstAttribute="bottom" secondItem="QcZ-Of-vnD" secondAttribute="bottom" constant="37" id="Jhb-kA-Th5"/>
+                            <constraint firstItem="glH-H4-pET" firstAttribute="top" secondItem="xWC-8d-k6B" secondAttribute="bottom" constant="-15" id="MgE-cw-a6u"/>
+                            <constraint firstItem="Acf-uM-rGC" firstAttribute="top" secondItem="glH-H4-pET" secondAttribute="bottom" id="QKK-ax-Sp3"/>
+                            <constraint firstAttribute="trailing" secondItem="Acf-uM-rGC" secondAttribute="trailing" constant="15" id="Ysf-H0-aaZ"/>
+                            <constraint firstItem="3r0-NR-cup" firstAttribute="top" secondItem="Onk-dv-F0k" secondAttribute="bottom" constant="-15" id="Z8n-FZ-Lhv"/>
+                            <constraint firstItem="Mea-MD-Nv8" firstAttribute="top" secondItem="vwk-dK-MTM" secondAttribute="bottom" constant="-15" id="aBt-pj-ntg"/>
+                            <constraint firstItem="xWC-8d-k6B" firstAttribute="top" secondItem="BSh-Vm-mW1" secondAttribute="top" constant="10" id="eb2-Bt-dyP"/>
+                            <constraint firstItem="Mea-MD-Nv8" firstAttribute="leading" secondItem="vwk-dK-MTM" secondAttribute="trailing" constant="8" symbolic="YES" id="gx0-cW-5vR"/>
+                            <constraint firstItem="vwk-dK-MTM" firstAttribute="leading" secondItem="BSh-Vm-mW1" secondAttribute="leading" constant="35" id="hew-Kf-TwY"/>
+                            <constraint firstItem="Acf-uM-rGC" firstAttribute="leading" secondItem="BSh-Vm-mW1" secondAttribute="leading" constant="15" id="scX-6n-ef6"/>
+                            <constraint firstItem="glH-H4-pET" firstAttribute="centerX" secondItem="BSh-Vm-mW1" secondAttribute="centerX" id="ujf-uD-Es2"/>
+                            <constraint firstItem="3r0-NR-cup" firstAttribute="leading" secondItem="Onk-dv-F0k" secondAttribute="trailing" constant="8" symbolic="YES" id="wJ8-7w-lzs"/>
+                            <constraint firstItem="Y1h-Q5-fP0" firstAttribute="top" secondItem="BSh-Vm-mW1" secondAttribute="top" constant="8" id="xL7-cr-uya"/>
+                            <constraint firstItem="xWC-8d-k6B" firstAttribute="centerX" secondItem="BSh-Vm-mW1" secondAttribute="centerX" id="z2W-IB-zFA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mainView" destination="BSh-Vm-mW1" id="kgo-6L-KAt"/>
+                    </connections>
+                </viewController>
+                <customObject id="YPk-7n-ZoX" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="42.5" y="3287.5"/>
         </scene>
     </scenes>
     <resources>
