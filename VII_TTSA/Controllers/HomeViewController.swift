@@ -36,4 +36,12 @@ class HomeViewController: NSViewController {
 
     }
     
+    
+    @IBAction func scheduleMeetingBtnClicked(_ sender: NSButton) {
+        let vc = ScheduleMeetingViewController.instantiateFromStoryboard()
+        self.presentAsSheet(vc)
+
+    }
+    
+    
 }

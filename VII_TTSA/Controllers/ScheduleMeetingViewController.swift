@@ -9,9 +9,18 @@ import Cocoa
 
 class ScheduleMeetingViewController: NSViewController {
 
+    
+    @IBOutlet var mainView: NSView!
+    
+    class func instantiateFromStoryboard() -> ScheduleMeetingViewController
+    {
+        let storyboard = NSStoryboard(name: "Main", bundle: nil)
+        return storyboard.instantiateController(withIdentifier: String(describing: self)) as! ScheduleMeetingViewController
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do view setup here.
+        
+        self.addColorToView(view: self.mainView, color: .white)
     }
     
 }
