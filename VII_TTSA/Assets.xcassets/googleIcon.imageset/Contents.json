@@ -1,16 +1,15 @@
 {
   "images" : [
     {
+      "filename" : "Gmail.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Image_023.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Image_023-1.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }
