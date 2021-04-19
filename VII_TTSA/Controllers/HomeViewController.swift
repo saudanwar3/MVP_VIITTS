@@ -48,5 +48,10 @@ class HomeViewController: NSViewController {
         let vc = JoinMeetingViewController.instantiateFromStoryboard()
         self.presentAsSheet(vc)
     }
+    @IBAction func newMeetingBtnClicked(_ sender: NSButton) {
+        let vc = MeetingViewController.instantiateFromStoryboard()
+        self.presentAsSheet(vc)
+
+    }
     
 }

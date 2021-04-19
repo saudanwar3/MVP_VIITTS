@@ -1256,6 +1256,9 @@
                                                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                         <font key="font" metaFont="system"/>
                                                     </buttonCell>
+                                                    <connections>
+                                                        <action selector="newMeetingBtnClicked:" target="xCu-gX-H10" id="ne9-OX-IDF"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -2614,6 +2617,64 @@
                 <customObject id="YPk-7n-ZoX" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="42.5" y="3287.5"/>
+        </scene>
+        <!--Meeting View Controller-->
+        <scene sceneID="Amz-7X-U6s">
+            <objects>
+                <viewController storyboardIdentifier="MeetingViewController" id="WiB-GX-Kyf" customClass="MeetingViewController" customModule="VII_TTSA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="mFP-je-6GS">
+                        <rect key="frame" x="0.0" y="0.0" width="950" height="700"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <containerView translatesAutoresizingMaskIntoConstraints="NO" id="t0n-HB-9dR">
+                                <rect key="frame" x="255" y="196" width="440" height="308"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="308" id="1B4-nb-dqA"/>
+                                    <constraint firstAttribute="width" constant="440" id="b5o-9N-9HF"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="ylq-6X-ZVu" kind="embed" id="ODc-CW-ubz"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="t0n-HB-9dR" firstAttribute="centerX" secondItem="mFP-je-6GS" secondAttribute="centerX" id="JZJ-oB-LPD"/>
+                            <constraint firstItem="t0n-HB-9dR" firstAttribute="centerY" secondItem="mFP-je-6GS" secondAttribute="centerY" id="Uep-Bh-Lon"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mainView" destination="mFP-je-6GS" id="yVT-FA-8yJ"/>
+                    </connections>
+                </viewController>
+                <customObject id="iNj-P4-s7A" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-12" y="3872"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EuN-pm-9nt">
+            <objects>
+                <viewController id="ylq-6X-ZVu" sceneMemberID="viewController">
+                    <view key="view" id="QBD-pH-QMV">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="SfD-MX-7qD">
+                                <rect key="frame" x="188" y="133" width="75" height="32"/>
+                                <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="79D-Zd-Rd0">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="SfD-MX-7qD" firstAttribute="centerX" secondItem="QBD-pH-QMV" secondAttribute="centerX" id="XD8-VI-9yg"/>
+                            <constraint firstItem="SfD-MX-7qD" firstAttribute="centerY" secondItem="QBD-pH-QMV" secondAttribute="centerY" id="apK-Is-g1d"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <customObject id="UQ4-ww-RnK" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-123" y="4541"/>
         </scene>
     </scenes>
     <resources>
