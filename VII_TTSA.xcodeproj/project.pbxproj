@@ -10,6 +10,8 @@
 		2CE21B50D6ED0D76F623FDBC /* Pods_VII_TTSATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F80EBA7874274CA74E620F5 /* Pods_VII_TTSATests.framework */; };
 		33BF3FC94A4FDEA2F9980E5F /* Pods_VII_TTSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E76EBCE68B1C1F19D9D7336 /* Pods_VII_TTSA.framework */; };
 		4E299529262D6F4600840E79 /* ScheduleMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E299528262D6F4600840E79 /* ScheduleMeetingViewController.swift */; };
+		4E29952F262D902200840E79 /* JoinMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E29952D262D902200840E79 /* JoinMeetingViewController.swift */; };
+		4E299530262D902200840E79 /* JoinMeetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E29952E262D902200840E79 /* JoinMeetingViewController.xib */; };
 		4E2D43CF262C3FE80057BF66 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D43CE262C3FE80057BF66 /* HomeViewController.swift */; };
 		4EB4C8B3262C0F76006BB25B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4C8B2262C0F76006BB25B /* AppDelegate.swift */; };
 		4EB4C8B5262C0F76006BB25B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4C8B4262C0F76006BB25B /* ViewController.swift */; };
@@ -45,6 +47,8 @@
 		2F80EBA7874274CA74E620F5 /* Pods_VII_TTSATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VII_TTSATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A0FB4530BB42B26498FF75 /* Pods-VII_TTSATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VII_TTSATests.release.xcconfig"; path = "Target Support Files/Pods-VII_TTSATests/Pods-VII_TTSATests.release.xcconfig"; sourceTree = "<group>"; };
 		4E299528262D6F4600840E79 /* ScheduleMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleMeetingViewController.swift; sourceTree = "<group>"; };
+		4E29952D262D902200840E79 /* JoinMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinMeetingViewController.swift; sourceTree = "<group>"; };
+		4E29952E262D902200840E79 /* JoinMeetingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JoinMeetingViewController.xib; sourceTree = "<group>"; };
 		4E2D43CE262C3FE80057BF66 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4EB4C8AF262C0F76006BB25B /* VII_TTSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VII_TTSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB4C8B2262C0F76006BB25B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				4E2D43CE262C3FE80057BF66 /* HomeViewController.swift */,
 				4E299528262D6F4600840E79 /* ScheduleMeetingViewController.swift */,
+				4E29952D262D902200840E79 /* JoinMeetingViewController.swift */,
+				4E29952E262D902200840E79 /* JoinMeetingViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -298,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EB4C8B7262C0F82006BB25B /* Assets.xcassets in Resources */,
+				4E299530262D902200840E79 /* JoinMeetingViewController.xib in Resources */,
 				4EB4C8BA262C0F82006BB25B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E29952F262D902200840E79 /* JoinMeetingViewController.swift in Sources */,
 				4E299529262D6F4600840E79 /* ScheduleMeetingViewController.swift in Sources */,
 				4EB4C8FF262C2447006BB25B /* Utilities.swift in Sources */,
 				4EB4C8B5262C0F76006BB25B /* ViewController.swift in Sources */,
