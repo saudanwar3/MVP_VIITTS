@@ -23,4 +23,7 @@ class ScheduleMeetingViewController: NSViewController {
         self.addColorToView(view: self.mainView, color: .white)
     }
     
+    @IBAction func closeBtnClicked(_ sender: NSButton) {
+        NSViewController().dismiss(self)
+    }
 }
