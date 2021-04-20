@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/Pods-VII_TTSA-VII_TTSAUITests/Pods-VII_TTSA-VII_TTSAUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AboutThisApp/AboutThisApp.framework
+${PODS_ROOT}/AgoraRtcEngine_macOS/AgoraAIDenoiseExtension.framework
+${PODS_ROOT}/AgoraRtcEngine_macOS/AgoraCore.framework
+${PODS_ROOT}/AgoraRtcEngine_macOS/Agorafdkaac.framework
+${PODS_ROOT}/AgoraRtcEngine_macOS/Agoraffmpeg.framework
+${PODS_ROOT}/AgoraRtcEngine_macOS/AgoraRtcKit.framework
+${PODS_ROOT}/AgoraRtcEngine_macOS/AgoraSoundTouch.framework
+${PODS_ROOT}/AgoraRtcEngine_macOS/av1.framework
+${PODS_ROOT}/AgoraRtcEngine_macOS/AgoraDav1dExtension.framework
+${PODS_ROOT}/AgoraRtcEngine_macOS/AgoraJNDExtension.framework
+${BUILT_PRODUCTS_DIR}/AgoraUIKit_macOS/AgoraUIKit_macOS.framework

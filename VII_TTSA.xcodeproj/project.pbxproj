@@ -12,6 +12,44 @@
 		4E299529262D6F4600840E79 /* ScheduleMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E299528262D6F4600840E79 /* ScheduleMeetingViewController.swift */; };
 		4E29952F262D902200840E79 /* JoinMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E29952D262D902200840E79 /* JoinMeetingViewController.swift */; };
 		4E299535262D9F6100840E79 /* MeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E299534262D9F6100840E79 /* MeetingViewController.swift */; };
+		4E29956A262E9EA600840E79 /* Agorafdkaac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E299561262E9EA400840E79 /* Agorafdkaac.framework */; };
+		4E29956B262E9EA700840E79 /* AgoraAIDenoiseExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E299562262E9EA500840E79 /* AgoraAIDenoiseExtension.framework */; };
+		4E29956C262E9EA700840E79 /* Agoraffmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E299563262E9EA500840E79 /* Agoraffmpeg.framework */; };
+		4E29956D262E9EA700840E79 /* AgoraRtcKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E299564262E9EA600840E79 /* AgoraRtcKit.framework */; };
+		4E29956E262E9EA700840E79 /* AgoraJNDExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E299565262E9EA600840E79 /* AgoraJNDExtension.framework */; };
+		4E29956F262E9EA700840E79 /* AgoraCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E299566262E9EA600840E79 /* AgoraCore.framework */; };
+		4E299570262E9EA700840E79 /* AgoraSoundTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E299567262E9EA600840E79 /* AgoraSoundTouch.framework */; };
+		4E299571262E9EA700840E79 /* av1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E299568262E9EA600840E79 /* av1.framework */; };
+		4E299572262E9EA700840E79 /* AgoraDav1dExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E299569262E9EA600840E79 /* AgoraDav1dExtension.framework */; };
+		4E299578262EAAAF00840E79 /* AGEButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E299577262EAAAF00840E79 /* AGEButton.swift */; };
+		4E299586262EAB9500840E79 /* AgoraExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E29957C262EAB9400840E79 /* AgoraExtension.swift */; };
+		4E299587262EAB9500840E79 /* AGEError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E29957D262EAB9400840E79 /* AGEError.swift */; };
+		4E299588262EAB9500840E79 /* WindowItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E29957E262EAB9400840E79 /* WindowItem.swift */; };
+		4E299589262EAB9500840E79 /* CommonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E29957F262EAB9400840E79 /* CommonExtensions.swift */; };
+		4E29958A262EAB9500840E79 /* WindowItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E299580262EAB9400840E79 /* WindowItem.xib */; };
+		4E29958B262EAB9500840E79 /* VideoSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E299581262EAB9400840E79 /* VideoSession.swift */; };
+		4E29958C262EAB9500840E79 /* AGETextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E299582262EAB9500840E79 /* AGETextField.swift */; };
+		4E29958D262EAB9500840E79 /* AGEVideoLayout in Resources */ = {isa = PBXBuildFile; fileRef = 4E299583262EAB9500840E79 /* AGEVideoLayout */; };
+		4E29958E262EAB9500840E79 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E299584262EAB9500840E79 /* VideoView.swift */; };
+		4E29958F262EAB9500840E79 /* KeyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E299585262EAB9500840E79 /* KeyCenter.swift */; };
+		4E299594262EABBD00840E79 /* StatisticsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E299593262EABBD00840E79 /* StatisticsInfo.swift */; };
+		4E299599262EAF9E00840E79 /* NewMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E299598262EAF9E00840E79 /* NewMeetingViewController.swift */; };
+		4E29959E262EB3D400840E79 /* RoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E29959D262EB3D400840E79 /* RoomViewController.swift */; };
+		4E2995A3262EB5B900840E79 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995A2262EB5B900840E79 /* Settings.swift */; };
+		4E2995AC262EB5F600840E79 /* AGEEventsObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995A7262EB5F600840E79 /* AGEEventsObserver.swift */; };
+		4E2995AD262EB5F600840E79 /* AGEVideoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995A8262EB5F600840E79 /* AGEVideoLayout.swift */; };
+		4E2995AE262EB5F600840E79 /* AGEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995A9262EB5F600840E79 /* AGEView.swift */; };
+		4E2995AF262EB5F600840E79 /* AGEVideoConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995AA262EB5F600840E79 /* AGEVideoConstraints.swift */; };
+		4E2995B0262EB5F600840E79 /* AGEVideoContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995AB262EB5F600840E79 /* AGEVideoContainer.swift */; };
+		4E2995B5262EB62E00840E79 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995B4262EB62E00840E79 /* LogViewController.swift */; };
+		4E2995BA262EB7EE00840E79 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995B9262EB7EE00840E79 /* Message.swift */; };
+		4E2995BF262EB82300840E79 /* LogCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995BE262EB82300840E79 /* LogCellView.swift */; };
+		4E2995C4262EB85200840E79 /* WindowsCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995C3262EB85200840E79 /* WindowsCenter.swift */; };
+		4E2995C9262EB88300840E79 /* ImageBrowserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995C8262EB88300840E79 /* ImageBrowserItem.swift */; };
+		4E2995CE262EB92500840E79 /* FileCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995CD262EB92500840E79 /* FileCenter.swift */; };
+		4E2995D3262EBF1E00840E79 /* ReplacementSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995D2262EBF1E00840E79 /* ReplacementSegue.swift */; };
+		4E2995D8262ED21E00840E79 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995D7262ED21E00840E79 /* SettingsViewController.swift */; };
+		4E2995E7262EEA7F00840E79 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2995E5262EEA7F00840E79 /* ContactsViewController.swift */; };
 		4E2D43CF262C3FE80057BF66 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2D43CE262C3FE80057BF66 /* HomeViewController.swift */; };
 		4EB4C8B3262C0F76006BB25B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4C8B2262C0F76006BB25B /* AppDelegate.swift */; };
 		4EB4C8B5262C0F76006BB25B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB4C8B4262C0F76006BB25B /* ViewController.swift */; };
@@ -49,6 +87,44 @@
 		4E299528262D6F4600840E79 /* ScheduleMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleMeetingViewController.swift; sourceTree = "<group>"; };
 		4E29952D262D902200840E79 /* JoinMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinMeetingViewController.swift; sourceTree = "<group>"; };
 		4E299534262D9F6100840E79 /* MeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewController.swift; sourceTree = "<group>"; };
+		4E299561262E9EA400840E79 /* Agorafdkaac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Agorafdkaac.framework; sourceTree = "<group>"; };
+		4E299562262E9EA500840E79 /* AgoraAIDenoiseExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraAIDenoiseExtension.framework; sourceTree = "<group>"; };
+		4E299563262E9EA500840E79 /* Agoraffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Agoraffmpeg.framework; sourceTree = "<group>"; };
+		4E299564262E9EA600840E79 /* AgoraRtcKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcKit.framework; sourceTree = "<group>"; };
+		4E299565262E9EA600840E79 /* AgoraJNDExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraJNDExtension.framework; sourceTree = "<group>"; };
+		4E299566262E9EA600840E79 /* AgoraCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraCore.framework; sourceTree = "<group>"; };
+		4E299567262E9EA600840E79 /* AgoraSoundTouch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraSoundTouch.framework; sourceTree = "<group>"; };
+		4E299568262E9EA600840E79 /* av1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = av1.framework; sourceTree = "<group>"; };
+		4E299569262E9EA600840E79 /* AgoraDav1dExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraDav1dExtension.framework; sourceTree = "<group>"; };
+		4E299577262EAAAF00840E79 /* AGEButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGEButton.swift; sourceTree = "<group>"; };
+		4E29957C262EAB9400840E79 /* AgoraExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgoraExtension.swift; sourceTree = "<group>"; };
+		4E29957D262EAB9400840E79 /* AGEError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGEError.swift; sourceTree = "<group>"; };
+		4E29957E262EAB9400840E79 /* WindowItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowItem.swift; sourceTree = "<group>"; };
+		4E29957F262EAB9400840E79 /* CommonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonExtensions.swift; sourceTree = "<group>"; };
+		4E299580262EAB9400840E79 /* WindowItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WindowItem.xib; sourceTree = "<group>"; };
+		4E299581262EAB9400840E79 /* VideoSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSession.swift; sourceTree = "<group>"; };
+		4E299582262EAB9500840E79 /* AGETextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGETextField.swift; sourceTree = "<group>"; };
+		4E299583262EAB9500840E79 /* AGEVideoLayout */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AGEVideoLayout; sourceTree = "<group>"; };
+		4E299584262EAB9500840E79 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		4E299585262EAB9500840E79 /* KeyCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyCenter.swift; sourceTree = "<group>"; };
+		4E299593262EABBD00840E79 /* StatisticsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatisticsInfo.swift; sourceTree = "<group>"; };
+		4E299598262EAF9E00840E79 /* NewMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMeetingViewController.swift; sourceTree = "<group>"; };
+		4E29959D262EB3D400840E79 /* RoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomViewController.swift; sourceTree = "<group>"; };
+		4E2995A2262EB5B900840E79 /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		4E2995A7262EB5F600840E79 /* AGEEventsObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AGEEventsObserver.swift; path = AGEVideoLayout/AGEEventsObserver.swift; sourceTree = "<group>"; };
+		4E2995A8262EB5F600840E79 /* AGEVideoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AGEVideoLayout.swift; path = AGEVideoLayout/AGEVideoLayout.swift; sourceTree = "<group>"; };
+		4E2995A9262EB5F600840E79 /* AGEView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AGEView.swift; path = AGEVideoLayout/AGEView.swift; sourceTree = "<group>"; };
+		4E2995AA262EB5F600840E79 /* AGEVideoConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AGEVideoConstraints.swift; path = AGEVideoLayout/AGEVideoConstraints.swift; sourceTree = "<group>"; };
+		4E2995AB262EB5F600840E79 /* AGEVideoContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AGEVideoContainer.swift; path = AGEVideoLayout/AGEVideoContainer.swift; sourceTree = "<group>"; };
+		4E2995B4262EB62E00840E79 /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		4E2995B9262EB7EE00840E79 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		4E2995BE262EB82300840E79 /* LogCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogCellView.swift; sourceTree = "<group>"; };
+		4E2995C3262EB85200840E79 /* WindowsCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowsCenter.swift; sourceTree = "<group>"; };
+		4E2995C8262EB88300840E79 /* ImageBrowserItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageBrowserItem.swift; sourceTree = "<group>"; };
+		4E2995CD262EB92500840E79 /* FileCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileCenter.swift; sourceTree = "<group>"; };
+		4E2995D2262EBF1E00840E79 /* ReplacementSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplacementSegue.swift; sourceTree = "<group>"; };
+		4E2995D7262ED21E00840E79 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4E2995E5262EEA7F00840E79 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		4E2D43CE262C3FE80057BF66 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4EB4C8AF262C0F76006BB25B /* VII_TTSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VII_TTSA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EB4C8B2262C0F76006BB25B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +151,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E299572262E9EA700840E79 /* AgoraDav1dExtension.framework in Frameworks */,
+				4E29956C262E9EA700840E79 /* Agoraffmpeg.framework in Frameworks */,
+				4E29956D262E9EA700840E79 /* AgoraRtcKit.framework in Frameworks */,
 				33BF3FC94A4FDEA2F9980E5F /* Pods_VII_TTSA.framework in Frameworks */,
+				4E299570262E9EA700840E79 /* AgoraSoundTouch.framework in Frameworks */,
+				4E29956B262E9EA700840E79 /* AgoraAIDenoiseExtension.framework in Frameworks */,
+				4E29956F262E9EA700840E79 /* AgoraCore.framework in Frameworks */,
+				4E299571262E9EA700840E79 /* av1.framework in Frameworks */,
+				4E29956E262E9EA700840E79 /* AgoraJNDExtension.framework in Frameworks */,
+				4E29956A262E9EA600840E79 /* Agorafdkaac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,10 +186,15 @@
 		4E2D43CD262C3FC00057BF66 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				4E2995D7262ED21E00840E79 /* SettingsViewController.swift */,
+				4E2995B4262EB62E00840E79 /* LogViewController.swift */,
+				4E29959D262EB3D400840E79 /* RoomViewController.swift */,
 				4E2D43CE262C3FE80057BF66 /* HomeViewController.swift */,
 				4E299528262D6F4600840E79 /* ScheduleMeetingViewController.swift */,
 				4E29952D262D902200840E79 /* JoinMeetingViewController.swift */,
 				4E299534262D9F6100840E79 /* MeetingViewController.swift */,
+				4E299598262EAF9E00840E79 /* NewMeetingViewController.swift */,
+				4E2995E5262EEA7F00840E79 /* ContactsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -167,6 +257,30 @@
 		4EB4C8FD262C2430006BB25B /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				4E2995D2262EBF1E00840E79 /* ReplacementSegue.swift */,
+				4E2995CD262EB92500840E79 /* FileCenter.swift */,
+				4E2995C8262EB88300840E79 /* ImageBrowserItem.swift */,
+				4E2995C3262EB85200840E79 /* WindowsCenter.swift */,
+				4E2995BE262EB82300840E79 /* LogCellView.swift */,
+				4E2995B9262EB7EE00840E79 /* Message.swift */,
+				4E2995A7262EB5F600840E79 /* AGEEventsObserver.swift */,
+				4E2995AA262EB5F600840E79 /* AGEVideoConstraints.swift */,
+				4E2995AB262EB5F600840E79 /* AGEVideoContainer.swift */,
+				4E2995A8262EB5F600840E79 /* AGEVideoLayout.swift */,
+				4E2995A9262EB5F600840E79 /* AGEView.swift */,
+				4E2995A2262EB5B900840E79 /* Settings.swift */,
+				4E299593262EABBD00840E79 /* StatisticsInfo.swift */,
+				4E29957D262EAB9400840E79 /* AGEError.swift */,
+				4E299582262EAB9500840E79 /* AGETextField.swift */,
+				4E299583262EAB9500840E79 /* AGEVideoLayout */,
+				4E29957C262EAB9400840E79 /* AgoraExtension.swift */,
+				4E29957F262EAB9400840E79 /* CommonExtensions.swift */,
+				4E299585262EAB9500840E79 /* KeyCenter.swift */,
+				4E299581262EAB9400840E79 /* VideoSession.swift */,
+				4E299584262EAB9500840E79 /* VideoView.swift */,
+				4E29957E262EAB9400840E79 /* WindowItem.swift */,
+				4E299580262EAB9400840E79 /* WindowItem.xib */,
+				4E299577262EAAAF00840E79 /* AGEButton.swift */,
 				4EB4C8FE262C2447006BB25B /* Utilities.swift */,
 			);
 			path = Utilities;
@@ -175,6 +289,15 @@
 		D36719DCBE149FEBCF0F15D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E299562262E9EA500840E79 /* AgoraAIDenoiseExtension.framework */,
+				4E299566262E9EA600840E79 /* AgoraCore.framework */,
+				4E299569262E9EA600840E79 /* AgoraDav1dExtension.framework */,
+				4E299561262E9EA400840E79 /* Agorafdkaac.framework */,
+				4E299563262E9EA500840E79 /* Agoraffmpeg.framework */,
+				4E299565262E9EA600840E79 /* AgoraJNDExtension.framework */,
+				4E299564262E9EA600840E79 /* AgoraRtcKit.framework */,
+				4E299567262E9EA600840E79 /* AgoraSoundTouch.framework */,
+				4E299568262E9EA600840E79 /* av1.framework */,
 				1E76EBCE68B1C1F19D9D7336 /* Pods_VII_TTSA.framework */,
 				852ED6AA135948403DB901C6 /* Pods_VII_TTSA_VII_TTSAUITests.framework */,
 				2F80EBA7874274CA74E620F5 /* Pods_VII_TTSATests.framework */,
@@ -303,7 +426,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E29958D262EAB9500840E79 /* AGEVideoLayout in Resources */,
 				4EB4C8B7262C0F82006BB25B /* Assets.xcassets in Resources */,
+				4E29958A262EAB9500840E79 /* WindowItem.xib in Resources */,
 				4EB4C8BA262C0F82006BB25B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,13 +557,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E2995C4262EB85200840E79 /* WindowsCenter.swift in Sources */,
 				4E29952F262D902200840E79 /* JoinMeetingViewController.swift in Sources */,
+				4E2995D8262ED21E00840E79 /* SettingsViewController.swift in Sources */,
+				4E2995BF262EB82300840E79 /* LogCellView.swift in Sources */,
+				4E29959E262EB3D400840E79 /* RoomViewController.swift in Sources */,
 				4E299529262D6F4600840E79 /* ScheduleMeetingViewController.swift in Sources */,
+				4E2995B5262EB62E00840E79 /* LogViewController.swift in Sources */,
 				4E299535262D9F6100840E79 /* MeetingViewController.swift in Sources */,
+				4E299588262EAB9500840E79 /* WindowItem.swift in Sources */,
+				4E2995B0262EB5F600840E79 /* AGEVideoContainer.swift in Sources */,
+				4E29958F262EAB9500840E79 /* KeyCenter.swift in Sources */,
+				4E299599262EAF9E00840E79 /* NewMeetingViewController.swift in Sources */,
+				4E299594262EABBD00840E79 /* StatisticsInfo.swift in Sources */,
+				4E2995AC262EB5F600840E79 /* AGEEventsObserver.swift in Sources */,
+				4E299578262EAAAF00840E79 /* AGEButton.swift in Sources */,
+				4E29958B262EAB9500840E79 /* VideoSession.swift in Sources */,
+				4E29958E262EAB9500840E79 /* VideoView.swift in Sources */,
 				4EB4C8FF262C2447006BB25B /* Utilities.swift in Sources */,
+				4E299586262EAB9500840E79 /* AgoraExtension.swift in Sources */,
 				4EB4C8B5262C0F76006BB25B /* ViewController.swift in Sources */,
+				4E2995CE262EB92500840E79 /* FileCenter.swift in Sources */,
+				4E2995E7262EEA7F00840E79 /* ContactsViewController.swift in Sources */,
+				4E2995A3262EB5B900840E79 /* Settings.swift in Sources */,
+				4E2995AF262EB5F600840E79 /* AGEVideoConstraints.swift in Sources */,
+				4E2995C9262EB88300840E79 /* ImageBrowserItem.swift in Sources */,
 				4EB4C8B3262C0F76006BB25B /* AppDelegate.swift in Sources */,
+				4E299587262EAB9500840E79 /* AGEError.swift in Sources */,
+				4E2995BA262EB7EE00840E79 /* Message.swift in Sources */,
+				4E2995D3262EBF1E00840E79 /* ReplacementSegue.swift in Sources */,
+				4E29958C262EAB9500840E79 /* AGETextField.swift in Sources */,
+				4E299589262EAB9500840E79 /* CommonExtensions.swift in Sources */,
 				4E2D43CF262C3FE80057BF66 /* HomeViewController.swift in Sources */,
+				4E2995AD262EB5F600840E79 /* AGEVideoLayout.swift in Sources */,
+				4E2995AE262EB5F600840E79 /* AGEView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -609,11 +761,16 @@
 				CODE_SIGN_ENTITLEMENTS = VII_TTSA/VII_TTSA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = VII_TTSA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mvp.tts.VII-TTSA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -629,11 +786,16 @@
 				CODE_SIGN_ENTITLEMENTS = VII_TTSA/VII_TTSA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = VII_TTSA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mvp.tts.VII-TTSA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

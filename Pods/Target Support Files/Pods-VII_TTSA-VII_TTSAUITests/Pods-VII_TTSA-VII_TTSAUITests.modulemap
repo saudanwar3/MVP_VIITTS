@@ -1,0 +1,6 @@
+framework module Pods_VII_TTSA_VII_TTSAUITests {
+  umbrella header "Pods-VII_TTSA-VII_TTSAUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

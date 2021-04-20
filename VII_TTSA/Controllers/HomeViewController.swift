@@ -49,9 +49,13 @@ class HomeViewController: NSViewController {
         self.presentAsSheet(vc)
     }
     @IBAction func newMeetingBtnClicked(_ sender: NSButton) {
-        let vc = MeetingViewController.instantiateFromStoryboard()
+        let vc = NewMeetingViewController.instantiateFromStoryboard()
         self.presentAsSheet(vc)
 
     }
     
+    @IBAction func contactsBtnClicked(_ sender: NSButton) {
+        let vc = ContactsViewController.instantiateFromStoryboard()
+        self.presentAsSheet(vc)
+    }
 }

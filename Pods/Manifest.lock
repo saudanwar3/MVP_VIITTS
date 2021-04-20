@@ -1,0 +1,24 @@
+PODS:
+  - AboutThisApp (1.0.1)
+  - AgoraRtcEngine_macOS (3.4.0)
+  - AgoraUIKit_macOS (1.3.3):
+    - AgoraRtcEngine_macOS (~> 3.3)
+
+DEPENDENCIES:
+  - AboutThisApp
+  - AgoraUIKit_macOS
+
+SPEC REPOS:
+  trunk:
+    - AboutThisApp
+    - AgoraRtcEngine_macOS
+    - AgoraUIKit_macOS
+
+SPEC CHECKSUMS:
+  AboutThisApp: 4b2b4b9d76cf733fb4577f60b1b7e94397998a25
+  AgoraRtcEngine_macOS: d8902d18dd10645bd263d472d0c3e02fcd7bfbb2
+  AgoraUIKit_macOS: 062b9704dc4c9864daad8669b90787c7cf6caf66
+
+PODFILE CHECKSUM: 9d9c4d8f3fb8903a09cd6b94b4d0a2d9a757db39
+
+COCOAPODS: 1.10.0

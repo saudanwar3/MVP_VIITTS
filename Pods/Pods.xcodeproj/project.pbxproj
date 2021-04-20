@@ -1,0 +1,1376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2F66418B23BBCB015CD5C89FB320133E /* AgoraRtcEngine_macOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6F06BEF145C2008D03662EC4B54BD1B4 /* Build configuration list for PBXAggregateTarget "AgoraRtcEngine_macOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AgoraRtcEngine_macOS;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		078436E9EB4C74521EA9341C829DECDB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		21B6F9C66196584D7123784F6F4E950B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		275A5014AF141E8D581735EAAE5C6B39 /* AgoraCollectionViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7C72DDDBC52BCC1DE6F7B23D6F871F /* AgoraCollectionViewer.swift */; };
+		27BD53DC140FED4A84A5157164E692A4 /* AgoraViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C5778EF89F47E64C2E3331D769DF17 /* AgoraViewer.swift */; };
+		2CA5FEB41C925FDCE6A6AD5DC9B5A2A8 /* AgoraVideoViewer+VideoControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A8F9BE3E11A1DB1A9979DEA22793F1 /* AgoraVideoViewer+VideoControl.swift */; };
+		313212C698591CE6FFF6086B3E9F5B60 /* AboutThisAppPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3546CA0CADC0316D73BBFC1E7C388D16 /* AboutThisAppPanel.swift */; };
+		456E1D55650455E8BD6CA11287205E62 /* Pods-VII_TTSA-VII_TTSAUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D82480E311091E2334EF2DF210C9E0 /* Pods-VII_TTSA-VII_TTSAUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5163DD7E176D85866AE172236AB11926 /* AgoraSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F964536D933B16B8A2ADBD45AA5609B5 /* AgoraSettings.swift */; };
+		557C784D922C848154AD05B87EFBC4DD /* AgoraVideoViewer+Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9142E4B282DA4BE730E0E7EAC12899B6 /* AgoraVideoViewer+Token.swift */; };
+		56A6370A613B332932653BB4EA683297 /* Pods-VII_TTSATests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26CD8837669B36BF59A450E50F746021 /* Pods-VII_TTSATests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57381DC69D95AF7CFD0786DBF8FA0C02 /* AgoraVideoViewer+Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A21A444523D1FC46A635E7B7DAAF8A /* AgoraVideoViewer+Buttons.swift */; };
+		5A188574A728E9572CB693A9A853D39E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		64E2718F05B86FB344E0DC264E6655F3 /* AboutThisAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA2D44162C79DAD8EB486A7B0B0AC30 /* AboutThisAppViewController.swift */; };
+		6F2A310866C04E2F4C826A6273295DA4 /* AgoraVideoViewer+AgoraRtcEngineDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB65DC6EF88E0C72BF6181D39E71299 /* AgoraVideoViewer+AgoraRtcEngineDelegate.swift */; };
+		76F1EA48E2567D4DA54FB94F2E4FF25A /* AgoraUIKit_macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 379415E92D4D0C027F00DF47758CD1A6 /* AgoraUIKit_macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		841A957BC4662BEB60D1755870C3823E /* AgoraVideoViewer+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C4968570C9142E906316D7C709276 /* AgoraVideoViewer+Utilities.swift */; };
+		8AE778166EE07DA8FA320A148F7B80D6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		8D167445EC3B98091BA720C1D2238EEA /* AboutThisApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82D69E2DAFE756F65D837918CB2B301E /* AboutThisApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3BB8957D8346D730C40B0F6182E501E /* Pods-VII_TTSA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7838C8E506D9ABB951697F9B380328 /* Pods-VII_TTSA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5CB58C7F4AD088C1202DC8944F9114D /* Pods-VII_TTSA-VII_TTSAUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C79BB86C6E56A3DAB64FC9FC071159 /* Pods-VII_TTSA-VII_TTSAUITests-dummy.m */; };
+		A696FBC7AB864EEF8025B9D308192BE2 /* Pods-VII_TTSATests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7663A9C1C37BBD7A857F91610F49F5 /* Pods-VII_TTSATests-dummy.m */; };
+		AEA897FB6E79072D1037D6A20EA655EB /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		B70D91A036F4D8A9B9BD9A6FB8B2AF5B /* AgoraVideoViewer+Permissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80E60443BABE9B5B2A7B62245F820A9 /* AgoraVideoViewer+Permissions.swift */; };
+		B8C13D24416EE54C9740B5D2AE9E88F5 /* Pods-VII_TTSA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B991AEAD19B9F133FB3CDAFC39672B9 /* Pods-VII_TTSA-dummy.m */; };
+		BACCE4612F66B2364CCF73AF634FA804 /* iOS+macOS+typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108DE8A9590DF9458FF4F929A054E4E5 /* iOS+macOS+typealiases.swift */; };
+		C50E91DF8A00256CA6480E3D62245DAA /* AgoraUIKit_macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD621B018338BDE93C9ADD00793E4B1 /* AgoraUIKit_macOS-dummy.m */; };
+		C91F4621D56935B4724E1C16761B1834 /* AppMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7442761A8A37D08CA50684285FB039C /* AppMetadata.swift */; };
+		CD936AACB8BCFBC7D355ECAE0B39D9EE /* AgoraVideoViewer+Ordering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05599B2F5ED87E93D64D845541B5466C /* AgoraVideoViewer+Ordering.swift */; };
+		D34DA5961545AD472999E92FD60541E4 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7DBBBD9CEF1F6FA623595BFC1A53F5 /* UIButton+Extensions.swift */; };
+		D655595B1E0C5141DEB8DA1E17F42E62 /* AgoraVideoViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA41C971F725D5A35F2111822610188 /* AgoraVideoViewer.swift */; };
+		DD2E1C46BF790128CDB301CE691F1E59 /* AboutThisApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B71370E055DB51905663E1880C9EDE /* AboutThisApp-dummy.m */; };
+		DFE633C8450EB2316D8318E64DFBBF23 /* AgoraSingleVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3F6FCF72ACBF759C948DF6F432589 /* AgoraSingleVideoView.swift */; };
+		EB0589078480813CC754CF9A9AB24E8B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1EE350E105C216C161B928E721C176 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16F3C4A1C8F822BB56DDD775D3A5875B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8586EE2155F1CD17D89DE1C5BF2B9AB8;
+			remoteInfo = AgoraUIKit_macOS;
+		};
+		22F399A0ED562282A4E9A235F7A51265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A71CE010601E22E272AEA22D6050F7A;
+			remoteInfo = AboutThisApp;
+		};
+		2C282E394B6B383537AE4A2EF320A4C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34FFDCC6F31754B8A568D54F2168231;
+			remoteInfo = "Pods-VII_TTSA";
+		};
+		30187861BD0EE32F5E75242937EAF971 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8586EE2155F1CD17D89DE1C5BF2B9AB8;
+			remoteInfo = AgoraUIKit_macOS;
+		};
+		490629036D576FB2DD83D8F8A4D6869A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F66418B23BBCB015CD5C89FB320133E;
+			remoteInfo = AgoraRtcEngine_macOS;
+		};
+		5E2A19A127C5A0315B49C9CD59D376CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F66418B23BBCB015CD5C89FB320133E;
+			remoteInfo = AgoraRtcEngine_macOS;
+		};
+		A838D77EE79E5BB40C7BB48BDC95A385 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F66418B23BBCB015CD5C89FB320133E;
+			remoteInfo = AgoraRtcEngine_macOS;
+		};
+		C0010F942E60079F0359E2B1AB407429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A71CE010601E22E272AEA22D6050F7A;
+			remoteInfo = AboutThisApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05599B2F5ED87E93D64D845541B5466C /* AgoraVideoViewer+Ordering.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AgoraVideoViewer+Ordering.swift"; path = "Sources/Agora-UIKit/AgoraVideoViewer+Ordering.swift"; sourceTree = "<group>"; };
+		05C79BB86C6E56A3DAB64FC9FC071159 /* Pods-VII_TTSA-VII_TTSAUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VII_TTSA-VII_TTSAUITests-dummy.m"; sourceTree = "<group>"; };
+		0C7D9BFB7442EAA832CCD5D2A1137915 /* AboutThisApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AboutThisApp-prefix.pch"; sourceTree = "<group>"; };
+		0D954743DECD48C2AEFF02D40DE006FD /* Pods-VII_TTSA-VII_TTSAUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VII_TTSA-VII_TTSAUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0DAB5D95939BC569E2DDB244B09EDA03 /* Agorafdkaac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Agorafdkaac.framework; sourceTree = "<group>"; };
+		0F0DE7DED3A99EE5A154D9FF82394131 /* Pods_VII_TTSATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VII_TTSATests.framework; path = "Pods-VII_TTSATests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7C4968570C9142E906316D7C709276 /* AgoraVideoViewer+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AgoraVideoViewer+Utilities.swift"; path = "Sources/Agora-UIKit/AgoraVideoViewer+Utilities.swift"; sourceTree = "<group>"; };
+		108DE8A9590DF9458FF4F929A054E4E5 /* iOS+macOS+typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "iOS+macOS+typealiases.swift"; path = "Sources/Agora-UIKit/iOS+macOS+typealiases.swift"; sourceTree = "<group>"; };
+		129446ABE547267380502E9745B55038 /* AgoraDav1dExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraDav1dExtension.framework; sourceTree = "<group>"; };
+		152DCBD63748B801473F34356E558A1C /* Pods-VII_TTSA-VII_TTSAUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VII_TTSA-VII_TTSAUITests.modulemap"; sourceTree = "<group>"; };
+		160DD7C47C96088B09FF4180BECFE8FF /* AgoraRtcEngine_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgoraRtcEngine_macOS.release.xcconfig; sourceTree = "<group>"; };
+		1A0745175B3C3F121778081B2837C93B /* AgoraUIKit_macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AgoraUIKit_macOS-Info.plist"; sourceTree = "<group>"; };
+		1AAC672525478510E5EA449B93299287 /* Pods-VII_TTSA-VII_TTSAUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VII_TTSA-VII_TTSAUITests-Info.plist"; sourceTree = "<group>"; };
+		1CB65DC6EF88E0C72BF6181D39E71299 /* AgoraVideoViewer+AgoraRtcEngineDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AgoraVideoViewer+AgoraRtcEngineDelegate.swift"; path = "Sources/Agora-UIKit/AgoraVideoViewer+AgoraRtcEngineDelegate.swift"; sourceTree = "<group>"; };
+		2394A5539D71D2AEB210B7024BB67BFC /* Pods_VII_TTSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VII_TTSA.framework; path = "Pods-VII_TTSA.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		243AFC07AE3A8337D0CCBFDFF02EC902 /* AgoraUIKit_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AgoraUIKit_macOS.framework; path = AgoraUIKit_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CD8837669B36BF59A450E50F746021 /* Pods-VII_TTSATests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VII_TTSATests-umbrella.h"; sourceTree = "<group>"; };
+		2802CF69F1000697AA0B4131FF7B4B57 /* av1.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = av1.framework; sourceTree = "<group>"; };
+		3546CA0CADC0316D73BBFC1E7C388D16 /* AboutThisAppPanel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AboutThisAppPanel.swift; path = Sources/AboutThisAppPanel.swift; sourceTree = "<group>"; };
+		379415E92D4D0C027F00DF47758CD1A6 /* AgoraUIKit_macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AgoraUIKit_macOS-umbrella.h"; sourceTree = "<group>"; };
+		3AA41C971F725D5A35F2111822610188 /* AgoraVideoViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AgoraVideoViewer.swift; path = "Sources/Agora-UIKit/AgoraVideoViewer.swift"; sourceTree = "<group>"; };
+		3BA2D44162C79DAD8EB486A7B0B0AC30 /* AboutThisAppViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AboutThisAppViewController.swift; path = Sources/AboutThisAppViewController.swift; sourceTree = "<group>"; };
+		3CDF8D0DEE8EDA43DD0082B510A6940C /* Pods-VII_TTSATests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VII_TTSATests.modulemap"; sourceTree = "<group>"; };
+		44BDCBFA4433612A07708AB9F1B75189 /* AboutThisApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AboutThisApp-Info.plist"; sourceTree = "<group>"; };
+		44FA106AE383EF4E32ABBDF16D58734F /* Agoraffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Agoraffmpeg.framework; sourceTree = "<group>"; };
+		4B7838C8E506D9ABB951697F9B380328 /* Pods-VII_TTSA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VII_TTSA-umbrella.h"; sourceTree = "<group>"; };
+		4B991AEAD19B9F133FB3CDAFC39672B9 /* Pods-VII_TTSA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VII_TTSA-dummy.m"; sourceTree = "<group>"; };
+		50479CF70FDF591A97F27EA24FA73372 /* AgoraUIKit_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgoraUIKit_macOS.debug.xcconfig; sourceTree = "<group>"; };
+		50D752CE6377130BD25CF86D9EA55ECF /* AgoraCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraCore.framework; sourceTree = "<group>"; };
+		5150E6E111542928B7A05FCBFE124222 /* Pods-VII_TTSA-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VII_TTSA-frameworks.sh"; sourceTree = "<group>"; };
+		51BA05DA8C2816CB5E3AD71A60D95B63 /* Pods-VII_TTSATests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VII_TTSATests-acknowledgements.plist"; sourceTree = "<group>"; };
+		55ABF861936CFEFBA765C3B0EB431707 /* AboutThisApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AboutThisApp.release.xcconfig; sourceTree = "<group>"; };
+		59B71370E055DB51905663E1880C9EDE /* AboutThisApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AboutThisApp-dummy.m"; sourceTree = "<group>"; };
+		5F7663A9C1C37BBD7A857F91610F49F5 /* Pods-VII_TTSATests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VII_TTSATests-dummy.m"; sourceTree = "<group>"; };
+		60FEAFC39D67D4CEF1EA0B1B94E218AC /* Pods-VII_TTSA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VII_TTSA-Info.plist"; sourceTree = "<group>"; };
+		61A8F9BE3E11A1DB1A9979DEA22793F1 /* AgoraVideoViewer+VideoControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AgoraVideoViewer+VideoControl.swift"; path = "Sources/Agora-UIKit/AgoraVideoViewer+VideoControl.swift"; sourceTree = "<group>"; };
+		633A38CB25B64972189B1E9890978E9C /* Pods-VII_TTSATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VII_TTSATests.debug.xcconfig"; sourceTree = "<group>"; };
+		64D82480E311091E2334EF2DF210C9E0 /* Pods-VII_TTSA-VII_TTSAUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VII_TTSA-VII_TTSAUITests-umbrella.h"; sourceTree = "<group>"; };
+		6E7A04B118BC47FE359E00A2F998D374 /* Pods-VII_TTSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VII_TTSA.release.xcconfig"; sourceTree = "<group>"; };
+		6EB454837416F72F748E0D0950386269 /* Pods-VII_TTSA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VII_TTSA.modulemap"; sourceTree = "<group>"; };
+		82D69E2DAFE756F65D837918CB2B301E /* AboutThisApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AboutThisApp-umbrella.h"; sourceTree = "<group>"; };
+		86482D4BBAD55EC3AF77A05CB418DB7E /* Pods_VII_TTSA_VII_TTSAUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VII_TTSA_VII_TTSAUITests.framework; path = "Pods-VII_TTSA-VII_TTSAUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A7C72DDDBC52BCC1DE6F7B23D6F871F /* AgoraCollectionViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AgoraCollectionViewer.swift; path = "Sources/Agora-UIKit/AgoraCollectionViewer.swift"; sourceTree = "<group>"; };
+		8F7DBBBD9CEF1F6FA623595BFC1A53F5 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+Extensions.swift"; path = "Sources/Agora-UIKit/UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		9142E4B282DA4BE730E0E7EAC12899B6 /* AgoraVideoViewer+Token.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AgoraVideoViewer+Token.swift"; path = "Sources/Agora-UIKit/AgoraVideoViewer+Token.swift"; sourceTree = "<group>"; };
+		9280301E4512F9B87038542B77E4EFEA /* Pods-VII_TTSATests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VII_TTSATests-Info.plist"; sourceTree = "<group>"; };
+		9BF42D1660CAD471C5A425FF0502FB9F /* AgoraUIKit_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgoraUIKit_macOS.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FD621B018338BDE93C9ADD00793E4B1 /* AgoraUIKit_macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AgoraUIKit_macOS-dummy.m"; sourceTree = "<group>"; };
+		A2E4165C8ADCA83880E3FA6AA9BF82C4 /* Pods-VII_TTSA-VII_TTSAUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VII_TTSA-VII_TTSAUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A44343E1D8F6B77374EE48CD4B5F246D /* Pods-VII_TTSATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VII_TTSATests.release.xcconfig"; sourceTree = "<group>"; };
+		A47FF11F26EDF9A903DDA0E2CD27BC6D /* Pods-VII_TTSA-VII_TTSAUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VII_TTSA-VII_TTSAUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8F76CA2CBDA59FFBDB74B3844ACF6CA /* AgoraSoundTouch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraSoundTouch.framework; sourceTree = "<group>"; };
+		AE1EE350E105C216C161B928E721C176 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		BA0458D9893984B39C8C43B8FBA2B57A /* Pods-VII_TTSA-VII_TTSAUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VII_TTSA-VII_TTSAUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF42F7BBF1DAE257D807FF3C66C1FE4F /* Pods-VII_TTSATests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VII_TTSATests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C03505B0AAAFD2947D23C01AD78E1A7F /* AboutThisApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AboutThisApp.framework; path = AboutThisApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C3C5778EF89F47E64C2E3331D769DF17 /* AgoraViewer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AgoraViewer.swift; path = "Sources/Agora-UIKit/AgoraViewer.swift"; sourceTree = "<group>"; };
+		C7442761A8A37D08CA50684285FB039C /* AppMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppMetadata.swift; path = Sources/AppMetadata.swift; sourceTree = "<group>"; };
+		C826CA8F22454844C4EAA377210999E2 /* Pods-VII_TTSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VII_TTSA.debug.xcconfig"; sourceTree = "<group>"; };
+		D1631492912ADB52F11FFFE80164EF36 /* Pods-VII_TTSA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VII_TTSA-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7A21A444523D1FC46A635E7B7DAAF8A /* AgoraVideoViewer+Buttons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AgoraVideoViewer+Buttons.swift"; path = "Sources/Agora-UIKit/AgoraVideoViewer+Buttons.swift"; sourceTree = "<group>"; };
+		D8B19B570DA552621D33B4D8EEBA616A /* AboutThisApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AboutThisApp.debug.xcconfig; sourceTree = "<group>"; };
+		DC969E42545B6DDFC69223A75B99C1DA /* AgoraRtcKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraRtcKit.framework; sourceTree = "<group>"; };
+		DC9BDA937A7C0D7A3CAFA16783364C45 /* AboutThisApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AboutThisApp.modulemap; sourceTree = "<group>"; };
+		E291EC81E05AB57BC12F4EC9156619D2 /* AgoraUIKit_macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AgoraUIKit_macOS-prefix.pch"; sourceTree = "<group>"; };
+		E80E60443BABE9B5B2A7B62245F820A9 /* AgoraVideoViewer+Permissions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "AgoraVideoViewer+Permissions.swift"; path = "Sources/Agora-UIKit/AgoraVideoViewer+Permissions.swift"; sourceTree = "<group>"; };
+		E8687265F3B2C9CDBD6E0152EB6F62AF /* AgoraJNDExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraJNDExtension.framework; sourceTree = "<group>"; };
+		ED9DA1630D533C835FB03B27AFB432DE /* AgoraAIDenoiseExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AgoraAIDenoiseExtension.framework; sourceTree = "<group>"; };
+		EEDFFF8E0446EA195BFE4C25A600EA7F /* AgoraRtcEngine_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AgoraRtcEngine_macOS.debug.xcconfig; sourceTree = "<group>"; };
+		F564DF1C87F98C611DE8B7EBB0EE1EDB /* AgoraUIKit_macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AgoraUIKit_macOS.modulemap; sourceTree = "<group>"; };
+		F85673E69E796234AB4FD23BBB7500D1 /* Pods-VII_TTSA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VII_TTSA-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F95B995470D0C9264BDDAE1619EC37C9 /* Pods-VII_TTSA-VII_TTSAUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VII_TTSA-VII_TTSAUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F964536D933B16B8A2ADBD45AA5609B5 /* AgoraSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AgoraSettings.swift; path = "Sources/Agora-UIKit/AgoraSettings.swift"; sourceTree = "<group>"; };
+		FAB3F6FCF72ACBF759C948DF6F432589 /* AgoraSingleVideoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AgoraSingleVideoView.swift; path = "Sources/Agora-UIKit/AgoraSingleVideoView.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51481287165872C638F8D654D023AE63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078436E9EB4C74521EA9341C829DECDB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51C376BE61E40527C3086325CA693A4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B6F9C66196584D7123784F6F4E950B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FB0046C0A993B2AD448217F87674523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE778166EE07DA8FA320A148F7B80D6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79E765EE8E8F58B3BB61DB1C676882A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A188574A728E9572CB693A9A853D39E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8389A64CC9EE9654C6A76F08559733B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA897FB6E79072D1037D6A20EA655EB /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11812ADEBEF146EA183F4A4DFEC50D32 /* Pods-VII_TTSATests */ = {
+			isa = PBXGroup;
+			children = (
+				3CDF8D0DEE8EDA43DD0082B510A6940C /* Pods-VII_TTSATests.modulemap */,
+				BF42F7BBF1DAE257D807FF3C66C1FE4F /* Pods-VII_TTSATests-acknowledgements.markdown */,
+				51BA05DA8C2816CB5E3AD71A60D95B63 /* Pods-VII_TTSATests-acknowledgements.plist */,
+				5F7663A9C1C37BBD7A857F91610F49F5 /* Pods-VII_TTSATests-dummy.m */,
+				9280301E4512F9B87038542B77E4EFEA /* Pods-VII_TTSATests-Info.plist */,
+				26CD8837669B36BF59A450E50F746021 /* Pods-VII_TTSATests-umbrella.h */,
+				633A38CB25B64972189B1E9890978E9C /* Pods-VII_TTSATests.debug.xcconfig */,
+				A44343E1D8F6B77374EE48CD4B5F246D /* Pods-VII_TTSATests.release.xcconfig */,
+			);
+			name = "Pods-VII_TTSATests";
+			path = "Target Support Files/Pods-VII_TTSATests";
+			sourceTree = "<group>";
+		};
+		15623C9E16138975689712A437554894 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5DBF5CCA1BA9E5AC98541B7AE3A4CF8 /* Pods-VII_TTSA */,
+				860F2B5F5C503B3EB6B4749187B0C9C8 /* Pods-VII_TTSA-VII_TTSAUITests */,
+				11812ADEBEF146EA183F4A4DFEC50D32 /* Pods-VII_TTSATests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2503951AD0BEE3302D644FF2F90B0F76 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC9BDA937A7C0D7A3CAFA16783364C45 /* AboutThisApp.modulemap */,
+				59B71370E055DB51905663E1880C9EDE /* AboutThisApp-dummy.m */,
+				44BDCBFA4433612A07708AB9F1B75189 /* AboutThisApp-Info.plist */,
+				0C7D9BFB7442EAA832CCD5D2A1137915 /* AboutThisApp-prefix.pch */,
+				82D69E2DAFE756F65D837918CB2B301E /* AboutThisApp-umbrella.h */,
+				D8B19B570DA552621D33B4D8EEBA616A /* AboutThisApp.debug.xcconfig */,
+				55ABF861936CFEFBA765C3B0EB431707 /* AboutThisApp.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AboutThisApp";
+			sourceTree = "<group>";
+		};
+		39261B3468F56039C8CD77FA165368D7 /* AgoraUIKit_macOS */ = {
+			isa = PBXGroup;
+			children = (
+				8A7C72DDDBC52BCC1DE6F7B23D6F871F /* AgoraCollectionViewer.swift */,
+				F964536D933B16B8A2ADBD45AA5609B5 /* AgoraSettings.swift */,
+				FAB3F6FCF72ACBF759C948DF6F432589 /* AgoraSingleVideoView.swift */,
+				3AA41C971F725D5A35F2111822610188 /* AgoraVideoViewer.swift */,
+				1CB65DC6EF88E0C72BF6181D39E71299 /* AgoraVideoViewer+AgoraRtcEngineDelegate.swift */,
+				D7A21A444523D1FC46A635E7B7DAAF8A /* AgoraVideoViewer+Buttons.swift */,
+				05599B2F5ED87E93D64D845541B5466C /* AgoraVideoViewer+Ordering.swift */,
+				E80E60443BABE9B5B2A7B62245F820A9 /* AgoraVideoViewer+Permissions.swift */,
+				9142E4B282DA4BE730E0E7EAC12899B6 /* AgoraVideoViewer+Token.swift */,
+				0F7C4968570C9142E906316D7C709276 /* AgoraVideoViewer+Utilities.swift */,
+				61A8F9BE3E11A1DB1A9979DEA22793F1 /* AgoraVideoViewer+VideoControl.swift */,
+				C3C5778EF89F47E64C2E3331D769DF17 /* AgoraViewer.swift */,
+				108DE8A9590DF9458FF4F929A054E4E5 /* iOS+macOS+typealiases.swift */,
+				8F7DBBBD9CEF1F6FA623595BFC1A53F5 /* UIButton+Extensions.swift */,
+				532A79D355C084A980CA403DAF606053 /* Support Files */,
+			);
+			name = AgoraUIKit_macOS;
+			path = AgoraUIKit_macOS;
+			sourceTree = "<group>";
+		};
+		532A79D355C084A980CA403DAF606053 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F564DF1C87F98C611DE8B7EBB0EE1EDB /* AgoraUIKit_macOS.modulemap */,
+				9FD621B018338BDE93C9ADD00793E4B1 /* AgoraUIKit_macOS-dummy.m */,
+				1A0745175B3C3F121778081B2837C93B /* AgoraUIKit_macOS-Info.plist */,
+				E291EC81E05AB57BC12F4EC9156619D2 /* AgoraUIKit_macOS-prefix.pch */,
+				379415E92D4D0C027F00DF47758CD1A6 /* AgoraUIKit_macOS-umbrella.h */,
+				50479CF70FDF591A97F27EA24FA73372 /* AgoraUIKit_macOS.debug.xcconfig */,
+				9BF42D1660CAD471C5A425FF0502FB9F /* AgoraUIKit_macOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AgoraUIKit_macOS";
+			sourceTree = "<group>";
+		};
+		85D91FC7BD434EFC2937807609B7492F /* AboutThisApp */ = {
+			isa = PBXGroup;
+			children = (
+				3546CA0CADC0316D73BBFC1E7C388D16 /* AboutThisAppPanel.swift */,
+				3BA2D44162C79DAD8EB486A7B0B0AC30 /* AboutThisAppViewController.swift */,
+				C7442761A8A37D08CA50684285FB039C /* AppMetadata.swift */,
+				AE1EE350E105C216C161B928E721C176 /* Extensions.swift */,
+				2503951AD0BEE3302D644FF2F90B0F76 /* Support Files */,
+			);
+			name = AboutThisApp;
+			path = AboutThisApp;
+			sourceTree = "<group>";
+		};
+		860F2B5F5C503B3EB6B4749187B0C9C8 /* Pods-VII_TTSA-VII_TTSAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				152DCBD63748B801473F34356E558A1C /* Pods-VII_TTSA-VII_TTSAUITests.modulemap */,
+				A2E4165C8ADCA83880E3FA6AA9BF82C4 /* Pods-VII_TTSA-VII_TTSAUITests-acknowledgements.markdown */,
+				BA0458D9893984B39C8C43B8FBA2B57A /* Pods-VII_TTSA-VII_TTSAUITests-acknowledgements.plist */,
+				05C79BB86C6E56A3DAB64FC9FC071159 /* Pods-VII_TTSA-VII_TTSAUITests-dummy.m */,
+				F95B995470D0C9264BDDAE1619EC37C9 /* Pods-VII_TTSA-VII_TTSAUITests-frameworks.sh */,
+				1AAC672525478510E5EA449B93299287 /* Pods-VII_TTSA-VII_TTSAUITests-Info.plist */,
+				64D82480E311091E2334EF2DF210C9E0 /* Pods-VII_TTSA-VII_TTSAUITests-umbrella.h */,
+				A47FF11F26EDF9A903DDA0E2CD27BC6D /* Pods-VII_TTSA-VII_TTSAUITests.debug.xcconfig */,
+				0D954743DECD48C2AEFF02D40DE006FD /* Pods-VII_TTSA-VII_TTSAUITests.release.xcconfig */,
+			);
+			name = "Pods-VII_TTSA-VII_TTSAUITests";
+			path = "Target Support Files/Pods-VII_TTSA-VII_TTSAUITests";
+			sourceTree = "<group>";
+		};
+		89246DBD940F2566DDC2DFD51191AFDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85D91FC7BD434EFC2937807609B7492F /* AboutThisApp */,
+				E48464C2191FB37A6D7D3F0D8461A2D2 /* AgoraRtcEngine_macOS */,
+				39261B3468F56039C8CD77FA165368D7 /* AgoraUIKit_macOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A95668378E5C8B267D06BFFEBA171F31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED9DA1630D533C835FB03B27AFB432DE /* AgoraAIDenoiseExtension.framework */,
+				50D752CE6377130BD25CF86D9EA55ECF /* AgoraCore.framework */,
+				129446ABE547267380502E9745B55038 /* AgoraDav1dExtension.framework */,
+				0DAB5D95939BC569E2DDB244B09EDA03 /* Agorafdkaac.framework */,
+				44FA106AE383EF4E32ABBDF16D58734F /* Agoraffmpeg.framework */,
+				E8687265F3B2C9CDBD6E0152EB6F62AF /* AgoraJNDExtension.framework */,
+				DC969E42545B6DDFC69223A75B99C1DA /* AgoraRtcKit.framework */,
+				A8F76CA2CBDA59FFBDB74B3844ACF6CA /* AgoraSoundTouch.framework */,
+				2802CF69F1000697AA0B4131FF7B4B57 /* av1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B127A3515DF8A5CEDA64B95AD3690CEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEDFFF8E0446EA195BFE4C25A600EA7F /* AgoraRtcEngine_macOS.debug.xcconfig */,
+				160DD7C47C96088B09FF4180BECFE8FF /* AgoraRtcEngine_macOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AgoraRtcEngine_macOS";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				89246DBD940F2566DDC2DFD51191AFDB /* Pods */,
+				E9E29ABBBD562DB1B9E7C751DD2F64E4 /* Products */,
+				15623C9E16138975689712A437554894 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		E48464C2191FB37A6D7D3F0D8461A2D2 /* AgoraRtcEngine_macOS */ = {
+			isa = PBXGroup;
+			children = (
+				A95668378E5C8B267D06BFFEBA171F31 /* Frameworks */,
+				B127A3515DF8A5CEDA64B95AD3690CEC /* Support Files */,
+			);
+			name = AgoraRtcEngine_macOS;
+			path = AgoraRtcEngine_macOS;
+			sourceTree = "<group>";
+		};
+		E9E29ABBBD562DB1B9E7C751DD2F64E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C03505B0AAAFD2947D23C01AD78E1A7F /* AboutThisApp.framework */,
+				243AFC07AE3A8337D0CCBFDFF02EC902 /* AgoraUIKit_macOS.framework */,
+				2394A5539D71D2AEB210B7024BB67BFC /* Pods_VII_TTSA.framework */,
+				86482D4BBAD55EC3AF77A05CB418DB7E /* Pods_VII_TTSA_VII_TTSAUITests.framework */,
+				0F0DE7DED3A99EE5A154D9FF82394131 /* Pods_VII_TTSATests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5DBF5CCA1BA9E5AC98541B7AE3A4CF8 /* Pods-VII_TTSA */ = {
+			isa = PBXGroup;
+			children = (
+				6EB454837416F72F748E0D0950386269 /* Pods-VII_TTSA.modulemap */,
+				F85673E69E796234AB4FD23BBB7500D1 /* Pods-VII_TTSA-acknowledgements.markdown */,
+				D1631492912ADB52F11FFFE80164EF36 /* Pods-VII_TTSA-acknowledgements.plist */,
+				4B991AEAD19B9F133FB3CDAFC39672B9 /* Pods-VII_TTSA-dummy.m */,
+				5150E6E111542928B7A05FCBFE124222 /* Pods-VII_TTSA-frameworks.sh */,
+				60FEAFC39D67D4CEF1EA0B1B94E218AC /* Pods-VII_TTSA-Info.plist */,
+				4B7838C8E506D9ABB951697F9B380328 /* Pods-VII_TTSA-umbrella.h */,
+				C826CA8F22454844C4EAA377210999E2 /* Pods-VII_TTSA.debug.xcconfig */,
+				6E7A04B118BC47FE359E00A2F998D374 /* Pods-VII_TTSA.release.xcconfig */,
+			);
+			name = "Pods-VII_TTSA";
+			path = "Target Support Files/Pods-VII_TTSA";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1272E99DABE404CDCA19E29355A35636 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F1EA48E2567D4DA54FB94F2E4FF25A /* AgoraUIKit_macOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8D4461CBBFD1170FEF5B185829ABB2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A6370A613B332932653BB4EA683297 /* Pods-VII_TTSATests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DEB6E0EF702C474B02C3820C15EF30F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BB8957D8346D730C40B0F6182E501E /* Pods-VII_TTSA-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B34743F0EDAA911078DBF28F1D0B4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456E1D55650455E8BD6CA11287205E62 /* Pods-VII_TTSA-VII_TTSAUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB82906971566C31D20D155895CF13BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D167445EC3B98091BA720C1D2238EEA /* AboutThisApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0A71CE010601E22E272AEA22D6050F7A /* AboutThisApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA128DD7B65F28EA2C5AE9E14203C929 /* Build configuration list for PBXNativeTarget "AboutThisApp" */;
+			buildPhases = (
+				EB82906971566C31D20D155895CF13BD /* Headers */,
+				9A649F7D08CE5CCFE05670C5D5175199 /* Sources */,
+				51481287165872C638F8D654D023AE63 /* Frameworks */,
+				E7D17691BC9BFD47B47F0207986D436F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AboutThisApp;
+			productName = AboutThisApp;
+			productReference = C03505B0AAAFD2947D23C01AD78E1A7F /* AboutThisApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		54ED7354EBEFE76B426C9419AF072997 /* Pods-VII_TTSA-VII_TTSAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 386176B0B70C1030205749FC41E2DC7A /* Build configuration list for PBXNativeTarget "Pods-VII_TTSA-VII_TTSAUITests" */;
+			buildPhases = (
+				B7B34743F0EDAA911078DBF28F1D0B4E /* Headers */,
+				5AD9BFBFA6657D2F7DDEFE37DA68EA2C /* Sources */,
+				5FB0046C0A993B2AD448217F87674523 /* Frameworks */,
+				6520AD361E6E0EB02E5A96F79109AFDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91CAB781993499C2D81DB7AF414574BD /* PBXTargetDependency */,
+				BE287E5E3AC69C9D8CEAF8BC4E7E0240 /* PBXTargetDependency */,
+				B2120B5EEE4A39BCCDE6BA08E6B621ED /* PBXTargetDependency */,
+			);
+			name = "Pods-VII_TTSA-VII_TTSAUITests";
+			productName = "Pods-VII_TTSA-VII_TTSAUITests";
+			productReference = 86482D4BBAD55EC3AF77A05CB418DB7E /* Pods_VII_TTSA_VII_TTSAUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8586EE2155F1CD17D89DE1C5BF2B9AB8 /* AgoraUIKit_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74932B6AF631D1C892313C40D66251AB /* Build configuration list for PBXNativeTarget "AgoraUIKit_macOS" */;
+			buildPhases = (
+				1272E99DABE404CDCA19E29355A35636 /* Headers */,
+				6ADDA3EC599583E240AE7CC329205BE2 /* Sources */,
+				51C376BE61E40527C3086325CA693A4D /* Frameworks */,
+				FC48DB5B0BD08D06350D37178DC6D2BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				688CE4EA82B7487F275D2474D1734521 /* PBXTargetDependency */,
+			);
+			name = AgoraUIKit_macOS;
+			productName = AgoraUIKit_macOS;
+			productReference = 243AFC07AE3A8337D0CCBFDFF02EC902 /* AgoraUIKit_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABDCE8FC54BD8DE60C1A29A9853571E6 /* Pods-VII_TTSATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37A9B4996B822E1CDE1FA660FB1D4B2D /* Build configuration list for PBXNativeTarget "Pods-VII_TTSATests" */;
+			buildPhases = (
+				1D8D4461CBBFD1170FEF5B185829ABB2 /* Headers */,
+				26D3F8516E5001BD33B787D2DB254547 /* Sources */,
+				79E765EE8E8F58B3BB61DB1C676882A4 /* Frameworks */,
+				BC2648EFC05788F8604E02EFED6D2913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AAE800913FC32FD41E87F9C203FD350 /* PBXTargetDependency */,
+			);
+			name = "Pods-VII_TTSATests";
+			productName = "Pods-VII_TTSATests";
+			productReference = 0F0DE7DED3A99EE5A154D9FF82394131 /* Pods_VII_TTSATests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C34FFDCC6F31754B8A568D54F2168231 /* Pods-VII_TTSA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF8DA9CCD91CEB7769B96326E7086D74 /* Build configuration list for PBXNativeTarget "Pods-VII_TTSA" */;
+			buildPhases = (
+				3DEB6E0EF702C474B02C3820C15EF30F /* Headers */,
+				C0F3BF47882DA7DE12C6F6250A9F511C /* Sources */,
+				F8389A64CC9EE9654C6A76F08559733B /* Frameworks */,
+				BEA4CECBE56279E90F4A9E6F7F54070A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D4D323D2EFF86348D71CDFE25848559 /* PBXTargetDependency */,
+				CBB29893A11CAE6EC4C69AF5A6070DCD /* PBXTargetDependency */,
+				8B3F408BA929B7CE202E77357013ACA6 /* PBXTargetDependency */,
+			);
+			name = "Pods-VII_TTSA";
+			productName = "Pods-VII_TTSA";
+			productReference = 2394A5539D71D2AEB210B7024BB67BFC /* Pods_VII_TTSA.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E9E29ABBBD562DB1B9E7C751DD2F64E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A71CE010601E22E272AEA22D6050F7A /* AboutThisApp */,
+				2F66418B23BBCB015CD5C89FB320133E /* AgoraRtcEngine_macOS */,
+				8586EE2155F1CD17D89DE1C5BF2B9AB8 /* AgoraUIKit_macOS */,
+				C34FFDCC6F31754B8A568D54F2168231 /* Pods-VII_TTSA */,
+				54ED7354EBEFE76B426C9419AF072997 /* Pods-VII_TTSA-VII_TTSAUITests */,
+				ABDCE8FC54BD8DE60C1A29A9853571E6 /* Pods-VII_TTSATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6520AD361E6E0EB02E5A96F79109AFDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2648EFC05788F8604E02EFED6D2913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA4CECBE56279E90F4A9E6F7F54070A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7D17691BC9BFD47B47F0207986D436F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC48DB5B0BD08D06350D37178DC6D2BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26D3F8516E5001BD33B787D2DB254547 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696FBC7AB864EEF8025B9D308192BE2 /* Pods-VII_TTSATests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AD9BFBFA6657D2F7DDEFE37DA68EA2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CB58C7F4AD088C1202DC8944F9114D /* Pods-VII_TTSA-VII_TTSAUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADDA3EC599583E240AE7CC329205BE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275A5014AF141E8D581735EAAE5C6B39 /* AgoraCollectionViewer.swift in Sources */,
+				5163DD7E176D85866AE172236AB11926 /* AgoraSettings.swift in Sources */,
+				DFE633C8450EB2316D8318E64DFBBF23 /* AgoraSingleVideoView.swift in Sources */,
+				C50E91DF8A00256CA6480E3D62245DAA /* AgoraUIKit_macOS-dummy.m in Sources */,
+				6F2A310866C04E2F4C826A6273295DA4 /* AgoraVideoViewer+AgoraRtcEngineDelegate.swift in Sources */,
+				57381DC69D95AF7CFD0786DBF8FA0C02 /* AgoraVideoViewer+Buttons.swift in Sources */,
+				CD936AACB8BCFBC7D355ECAE0B39D9EE /* AgoraVideoViewer+Ordering.swift in Sources */,
+				B70D91A036F4D8A9B9BD9A6FB8B2AF5B /* AgoraVideoViewer+Permissions.swift in Sources */,
+				557C784D922C848154AD05B87EFBC4DD /* AgoraVideoViewer+Token.swift in Sources */,
+				841A957BC4662BEB60D1755870C3823E /* AgoraVideoViewer+Utilities.swift in Sources */,
+				2CA5FEB41C925FDCE6A6AD5DC9B5A2A8 /* AgoraVideoViewer+VideoControl.swift in Sources */,
+				D655595B1E0C5141DEB8DA1E17F42E62 /* AgoraVideoViewer.swift in Sources */,
+				27BD53DC140FED4A84A5157164E692A4 /* AgoraViewer.swift in Sources */,
+				BACCE4612F66B2364CCF73AF634FA804 /* iOS+macOS+typealiases.swift in Sources */,
+				D34DA5961545AD472999E92FD60541E4 /* UIButton+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A649F7D08CE5CCFE05670C5D5175199 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2E1C46BF790128CDB301CE691F1E59 /* AboutThisApp-dummy.m in Sources */,
+				313212C698591CE6FFF6086B3E9F5B60 /* AboutThisAppPanel.swift in Sources */,
+				64E2718F05B86FB344E0DC264E6655F3 /* AboutThisAppViewController.swift in Sources */,
+				C91F4621D56935B4724E1C16761B1834 /* AppMetadata.swift in Sources */,
+				EB0589078480813CC754CF9A9AB24E8B /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0F3BF47882DA7DE12C6F6250A9F511C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8C13D24416EE54C9740B5D2AE9E88F5 /* Pods-VII_TTSA-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AAE800913FC32FD41E87F9C203FD350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VII_TTSA";
+			target = C34FFDCC6F31754B8A568D54F2168231 /* Pods-VII_TTSA */;
+			targetProxy = 2C282E394B6B383537AE4A2EF320A4C4 /* PBXContainerItemProxy */;
+		};
+		5D4D323D2EFF86348D71CDFE25848559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AboutThisApp;
+			target = 0A71CE010601E22E272AEA22D6050F7A /* AboutThisApp */;
+			targetProxy = 22F399A0ED562282A4E9A235F7A51265 /* PBXContainerItemProxy */;
+		};
+		688CE4EA82B7487F275D2474D1734521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AgoraRtcEngine_macOS;
+			target = 2F66418B23BBCB015CD5C89FB320133E /* AgoraRtcEngine_macOS */;
+			targetProxy = 5E2A19A127C5A0315B49C9CD59D376CD /* PBXContainerItemProxy */;
+		};
+		8B3F408BA929B7CE202E77357013ACA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AgoraUIKit_macOS;
+			target = 8586EE2155F1CD17D89DE1C5BF2B9AB8 /* AgoraUIKit_macOS */;
+			targetProxy = 16F3C4A1C8F822BB56DDD775D3A5875B /* PBXContainerItemProxy */;
+		};
+		91CAB781993499C2D81DB7AF414574BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AboutThisApp;
+			target = 0A71CE010601E22E272AEA22D6050F7A /* AboutThisApp */;
+			targetProxy = C0010F942E60079F0359E2B1AB407429 /* PBXContainerItemProxy */;
+		};
+		B2120B5EEE4A39BCCDE6BA08E6B621ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AgoraUIKit_macOS;
+			target = 8586EE2155F1CD17D89DE1C5BF2B9AB8 /* AgoraUIKit_macOS */;
+			targetProxy = 30187861BD0EE32F5E75242937EAF971 /* PBXContainerItemProxy */;
+		};
+		BE287E5E3AC69C9D8CEAF8BC4E7E0240 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AgoraRtcEngine_macOS;
+			target = 2F66418B23BBCB015CD5C89FB320133E /* AgoraRtcEngine_macOS */;
+			targetProxy = A838D77EE79E5BB40C7BB48BDC95A385 /* PBXContainerItemProxy */;
+		};
+		CBB29893A11CAE6EC4C69AF5A6070DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AgoraRtcEngine_macOS;
+			target = 2F66418B23BBCB015CD5C89FB320133E /* AgoraRtcEngine_macOS */;
+			targetProxy = 490629036D576FB2DD83D8F8A4D6869A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		149E3DC59E471C2579AF91FB1AFFF84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		27C452821D5B644EC4260E0DB72EED46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E7A04B118BC47FE359E00A2F998D374 /* Pods-VII_TTSA.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VII_TTSA/Pods-VII_TTSA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MODULEMAP_FILE = "Target Support Files/Pods-VII_TTSA/Pods-VII_TTSA.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58BCCEC1AA3793CF7C72738A997C5FA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50479CF70FDF591A97F27EA24FA73372 /* AgoraUIKit_macOS.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AgoraUIKit_macOS/AgoraUIKit_macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AgoraUIKit_macOS/AgoraUIKit_macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/AgoraUIKit_macOS/AgoraUIKit_macOS.modulemap";
+				PRODUCT_MODULE_NAME = AgoraUIKit_macOS;
+				PRODUCT_NAME = AgoraUIKit_macOS;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D0AFA99B2A902EB2866E6C437A6E2B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633A38CB25B64972189B1E9890978E9C /* Pods-VII_TTSATests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VII_TTSATests/Pods-VII_TTSATests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MODULEMAP_FILE = "Target Support Files/Pods-VII_TTSATests/Pods-VII_TTSATests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E0DA1073C100A31028B6F1D8DFA72A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C826CA8F22454844C4EAA377210999E2 /* Pods-VII_TTSA.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VII_TTSA/Pods-VII_TTSA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MODULEMAP_FILE = "Target Support Files/Pods-VII_TTSA/Pods-VII_TTSA.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A0C5A3A918A1009CDFDF6EA2A68DB1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9759ABA48C7310CFDD359AA270ADAC05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55ABF861936CFEFBA765C3B0EB431707 /* AboutThisApp.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AboutThisApp/AboutThisApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AboutThisApp/AboutThisApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/AboutThisApp/AboutThisApp.modulemap";
+				PRODUCT_MODULE_NAME = AboutThisApp;
+				PRODUCT_NAME = AboutThisApp;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98FD1ECB18CA2DA707E788DDE004EF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF42D1660CAD471C5A425FF0502FB9F /* AgoraUIKit_macOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AgoraUIKit_macOS/AgoraUIKit_macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AgoraUIKit_macOS/AgoraUIKit_macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/AgoraUIKit_macOS/AgoraUIKit_macOS.modulemap";
+				PRODUCT_MODULE_NAME = AgoraUIKit_macOS;
+				PRODUCT_NAME = AgoraUIKit_macOS;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA5545D93BA57A27175A5D2F4B4F9672 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B19B570DA552621D33B4D8EEBA616A /* AboutThisApp.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AboutThisApp/AboutThisApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AboutThisApp/AboutThisApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MODULEMAP_FILE = "Target Support Files/AboutThisApp/AboutThisApp.modulemap";
+				PRODUCT_MODULE_NAME = AboutThisApp;
+				PRODUCT_NAME = AboutThisApp;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2F7C76BF49114C941BAEA7D52402D37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D954743DECD48C2AEFF02D40DE006FD /* Pods-VII_TTSA-VII_TTSAUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VII_TTSA-VII_TTSAUITests/Pods-VII_TTSA-VII_TTSAUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MODULEMAP_FILE = "Target Support Files/Pods-VII_TTSA-VII_TTSAUITests/Pods-VII_TTSA-VII_TTSAUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C61A0FE28BF9DF0AAEFBF811CBEF8B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A44343E1D8F6B77374EE48CD4B5F246D /* Pods-VII_TTSATests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VII_TTSATests/Pods-VII_TTSATests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MODULEMAP_FILE = "Target Support Files/Pods-VII_TTSATests/Pods-VII_TTSATests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1016954E3976147C187C7DA8DA435BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A47FF11F26EDF9A903DDA0E2CD27BC6D /* Pods-VII_TTSA-VII_TTSAUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VII_TTSA-VII_TTSAUITests/Pods-VII_TTSA-VII_TTSAUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MODULEMAP_FILE = "Target Support Files/Pods-VII_TTSA-VII_TTSAUITests/Pods-VII_TTSA-VII_TTSAUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6FF4CB92064A16DF06D44173D9384CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 160DD7C47C96088B09FF4180BECFE8FF /* AgoraRtcEngine_macOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA2AB75507986D36A0FA4E6AAD467A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDFFF8E0446EA195BFE4C25A600EA7F /* AgoraRtcEngine_macOS.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37A9B4996B822E1CDE1FA660FB1D4B2D /* Build configuration list for PBXNativeTarget "Pods-VII_TTSATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D0AFA99B2A902EB2866E6C437A6E2B4 /* Debug */,
+				C61A0FE28BF9DF0AAEFBF811CBEF8B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		386176B0B70C1030205749FC41E2DC7A /* Build configuration list for PBXNativeTarget "Pods-VII_TTSA-VII_TTSAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1016954E3976147C187C7DA8DA435BB /* Debug */,
+				C2F7C76BF49114C941BAEA7D52402D37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149E3DC59E471C2579AF91FB1AFFF84E /* Debug */,
+				7A0C5A3A918A1009CDFDF6EA2A68DB1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F06BEF145C2008D03662EC4B54BD1B4 /* Build configuration list for PBXAggregateTarget "AgoraRtcEngine_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2AB75507986D36A0FA4E6AAD467A7D /* Debug */,
+				F6FF4CB92064A16DF06D44173D9384CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74932B6AF631D1C892313C40D66251AB /* Build configuration list for PBXNativeTarget "AgoraUIKit_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58BCCEC1AA3793CF7C72738A997C5FA0 /* Debug */,
+				98FD1ECB18CA2DA707E788DDE004EF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF8DA9CCD91CEB7769B96326E7086D74 /* Build configuration list for PBXNativeTarget "Pods-VII_TTSA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0DA1073C100A31028B6F1D8DFA72A5 /* Debug */,
+				27C452821D5B644EC4260E0DB72EED46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA128DD7B65F28EA2C5AE9E14203C929 /* Build configuration list for PBXNativeTarget "AboutThisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA5545D93BA57A27175A5D2F4B4F9672 /* Debug */,
+				9759ABA48C7310CFDD359AA270ADAC05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
